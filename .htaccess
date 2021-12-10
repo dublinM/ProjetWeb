@@ -1,0 +1,18 @@
+
+AddDefaultCharset UTF-8
+
+
+DirectoryIndex index.php
+
+DefaultLanguage fr-FR
+
+
+
+SetEnv SERVER_ADMIN default@example.com
+
+Options -Indexes
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
