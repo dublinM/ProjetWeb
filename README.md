@@ -11,4 +11,7 @@ Implémentation d'un site web simple sous respectant l'architecture MVC.
 * Nom : admin
 * mot de passe : admin
 
+#### Nota :
+- Utiliser Firefox comme navigateur.
+
 - Enjoy :)
