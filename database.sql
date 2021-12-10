@@ -52,6 +52,15 @@ INSERT INTO `users` (`user_id`, `user_created`, `user_updated`, `user_name`, `us
 (1, '2021-12-07 18:03:59', '2021-12-10 00:29:44', 'admin', 'root@gmail.com', '$2y$10$HqiM1Y2BAtkkLlyzbD6Z7eqQ.MAXbNsXx8cfVaF.9dO/1xByThZjK', 'admin');
 COMMIT;
 
+--
+-- Dumping data for table `posts`
+--
+
+INSERT INTO `posts` (`post_id`, `post_created`, `post_updated`, `post_title`, `post_author`, `post_content`, `post_cover`) VALUES
+(1, '2021-12-10 16:22:32', '0000-00-00 00:00:00', 'Project delivery', 1, 'La dernière ligne droite :)', './public/uploads/F7agfPbijT.jpeg');
+COMMIT;
+
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
