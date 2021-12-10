@@ -8,10 +8,6 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
 
-	<meta http-equiv="x-dns-prefetch-control" content="on">
-	<link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com">
-	<link rel="dns-prefetch" href="//code.jquery.com">
-	<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 
 	<link rel="stylesheet" type="text/css" href=<?= GENERAL_CONFIG['url']."/public/assets/css/bootstrap.min.css"; ?> >
 	<link rel="stylesheet" type="text/css" href=<?= GENERAL_CONFIG['url']."/public/assets/css/style.css"; ?> >
