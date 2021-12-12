@@ -1,6 +1,6 @@
 # Projet web
 
-Implémentation d'un site web simple sous respectant l'architecture MVC.
+Implémentation d'un site web simple en respectant l'architecture MVC.
 
 # Instructions d'installation
 - Téléverser le contenu du repository dans un répertoire local (www)
